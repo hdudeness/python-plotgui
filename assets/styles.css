@@ -1,0 +1,105 @@
+/* Lato Font */
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+/* Global Styles */
+* {
+  margin: 0;
+}
+
+body {
+  font-family: 'Lato', sans-serif !important;
+  color: white;
+  height: 100vh;
+}
+
+#react-entry-point {
+  height: 100%;
+}
+
+#react-entry-point #main {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  height: 100%;
+}
+/* ------------------- */
+
+/* Top Data Display */
+#data-display {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  margin: 0 auto;
+  padding: 20px 20px 10px 80px;
+  background-color: #08ACE2;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+/* Number Containers */
+#data-display >div >div >div {
+  min-width: 20vw;
+  justify-content: center;
+  padding: 10px 20px;
+}
+
+#data-display label {
+  font-size: 18px;
+  font-weight: 700;
+}
+/* ------------------- */
+
+/* Graph */
+#live-graph {
+  width: 100%;
+  min-height: 75vh;
+}
+/* ------------------- */
+
+/* Bottom Buttons */
+#toggle-button-group {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #135EAB;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+#stop-button button {
+  border-radius: 0;
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+button {
+  transition: all 300ms ease-in-out;
+  position: relative;
+  display: inline-block;
+  background: #27AAE2;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 500px;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  box-shadow: none;
+  text-shadow: none;
+  text-decoration: none;
+}
+
+button:hover {
+  background: #ACE0EE;
+}
+/* ------------------- */
